@@ -1,0 +1,37 @@
+[INFO  - 2019-04-18T19:37:08.479Z] GhostDriver - Main - running on port 63672
+[INFO  - 2019-04-18T19:37:12.493Z] Session [5cf1fe40-6211-11e9-8374-3f835a2ae2d6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-04-18T19:37:12.493Z] Session [5cf1fe40-6211-11e9-8374-3f835a2ae2d6] - page.customHeaders:  - {}
+[INFO  - 2019-04-18T19:37:12.494Z] Session [5cf1fe40-6211-11e9-8374-3f835a2ae2d6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-04-18T19:37:12.494Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5cf1fe40-6211-11e9-8374-3f835a2ae2d6
+[ERROR - 2019-04-18T19:37:14.422Z] Session [5cf1fe40-6211-11e9-8374-3f835a2ae2d6] - page.onError - msg: TypeError: Attempting to configurable attribute of unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-18T19:37:14.423Z] Session [5cf1fe40-6211-11e9-8374-3f835a2ae2d6] - page.onError - stack:
+  defineProperty (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  e (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  t (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  r (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  reduce (:0)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  t (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  pushBlockingScript (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/satelliteLib-fa25bab22138a5e024a2482c63100bc96327f717.js:12)
+  pushBlockingScript (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/satelliteLib-fa25bab22138a5e024a2482c63100bc96327f717.js:11)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-18T19:37:15.888Z] Session [5cf1fe40-6211-11e9-8374-3f835a2ae2d6] - page.onError - msg: ReferenceError: Can't find variable: AdobePrivacy
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-18T19:37:15.888Z] Session [5cf1fe40-6211-11e9-8374-3f835a2ae2d6] - page.onError - stack:
+  global code (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/s-code-contents-e79c0a9ed7ac4ad3ba68edae3fdfcf4f07968367.js:25)
+
+  phantomjs://platform/console++.js:263 in error
